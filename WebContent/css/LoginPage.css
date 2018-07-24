@@ -1,0 +1,237 @@
+/*http://css-snippets.com/drop-down-navigation */
+.curve {
+	-webkit-border-radius: 9px;
+	-moz-border-radius: 9px;
+	border-radius: 9px;
+}
+
+.curve-top {
+	-webkit-border-top-right-radius: 6px;
+	-webkit-border-top-left-radius: 6px;
+	-moz-border-top-right-radius: 6px;
+	-moz-border-top-left-radius: 6px;
+	text-align: center;
+}
+
+.curve-bottom {
+	-webkit-border-bottom-right-radius: 6px;
+	-webkit-border-bottom-left-radius: 6px;
+	-moz-border-bottom-right-radius: 6px;
+	-moz-border-bottom-left-radius: 6px;
+}
+
+.fix {
+	margin: auto;
+	height: 90%;
+	width: 80%;
+	margin-left: 2px;
+	margin-right: 2px;
+	font-size: .9em;
+	display: inline-table;
+	border: 0px solid;
+}
+
+#fixlbl {
+	padding: 0px;
+	width: 20%;
+}
+#loginTbl{
+		background-color: rgba(227,246,209,0.4);
+		opacity: 1.0;
+		text-shadow: 3px 3px 15px #252525;
+		color: #0000a0;
+		padding-bottom: 2%;
+		padding-left: 1%;
+}
+
+/*======================================================================================================
+=============================================== 350 px =================================================
+======================================================================================================*/
+@media screen and (min-width: 350px) {
+	#plogin {
+		background-position: center;
+		background-color: #B5B1AB;
+		background: no-repeat url("../img/Blur/137221_small1.jpg");
+		background-size: 100% 400%;
+		padding-top: 1%;
+		padding-bottom: 3%;
+		margin: 2%;
+		margin-right: 5%;
+		padding: 1%;
+		direction: ltr;
+	}
+	.tbl_login {
+		margin: auto;
+		margin-top: 16%;
+		width: 55%;
+		/*border: 1px solid #8000ff;*/
+		height: 40%;
+		font-size: 1.2em;
+
+	}
+	.tbl_title{
+		color: #ff8000;
+		text-align: center;
+	}
+	#Ghadir_Logo_small {
+		margin: auto;
+		width: 50%;
+		height: auto;
+	}
+	.small_date {
+		margin-left: 2%;
+		font-size: 1.3em;
+	}
+	#between_tbl {
+		height: 30px;
+		width: 20%;
+	}
+	.button {
+		margin: auto;
+		margin-left: 2%;
+		margin-right: 2%;
+		height: 40px;
+		width: 40%;
+		font-size: 1.0em;
+		display: inline-block;
+	}
+	.Center {
+		margin: auto;
+		text-align: center;
+		width: 44%;
+	}
+}
+
+/*======================================================================================================
+=============================================== 600 px =================================================
+======================================================================================================*/
+@media screen and (min-width: 600px) {
+	#plogin {
+		background-position: center;
+		background-color: #B5B1AB;
+		background: no-repeat url("../img/Blur/137221_small1.jpg");
+		background-size: 100% 450%;
+		padding-top: 1%;
+		padding-bottom: 3%;
+		margin: 2%;
+		margin-right: 5%;
+		padding: 1%;
+		direction: ltr;
+	}
+	.tbl_login {
+		margin: auto;
+		margin-top: 16%;
+		width: 55%;
+		/*border: 1px solid #8000ff;*/
+		height: 40%;
+		font-size: 1.2em;
+		color: #2d2dff;
+	}
+	.tbl_title{
+		color: #ff8000;
+		text-align: center;
+	}
+	#Ghadir_Logo_small {
+		margin: auto;
+		width: 50%;
+		height: auto;
+	}
+	.small_date {
+		margin-left: 2%;
+		font-size: 1.3em;
+	}
+	#between_tbl {
+		height: 30px;
+		width: 20%;
+	}
+	.button {
+		margin: auto;
+		margin-left: 2%;
+		margin-right: 2%;
+		height: 40px;
+		width: 45%;
+		font-size: 1.0em;
+		display: inline-block;
+	}
+	.Center {
+		margin: auto;
+		text-align: center;
+		width: 44%;
+	}
+}
+/*======================================================================================================
+=============================================== 1000 px =================================================
+======================================================================================================*/
+@media screen and (min-width: 1000px) {
+	#plogin {
+		background-position: center;
+		background-color: #B5B1AB;
+		background: no-repeat url("../img/Blur/137221.jpg");
+		background-size: 100% 230%;
+		padding-top: 1%;
+		padding-bottom: 3%;
+		margin: 2%;
+		margin-right: 5%;
+		padding: 1%;
+		direction: ltr;
+		/*
+		-webkit-filter: blur(5px);
+		-moz-filter: blur(5px);
+	    filter: blur(5px);
+	   
+    	-webkit-filter: opacity(30%); 
+    	-moz-filter: opacity(30%);
+    	filter: opacity(30%); */
+	}
+	#logMsg {
+		color: #0000ff;
+		font-size: 0.9em;
+	}
+	.tbl_login {
+		margin: auto;
+		margin-top: 16%;
+		width: 28%;
+		/*border: 1px solid #8000ff;*/
+		height: 40%;
+		font-size: 1.2em;
+		color: #a400a4;
+	}
+	.tbl_title{
+		color: #ff8000;
+		text-align: center;
+	}
+	.button {
+		margin: auto;
+		margin-left: 2%;
+		margin-right: 2%;
+		height: 30px;
+		width: 20%;
+		font-size: 0.9em;
+	}
+	#between_tbl {
+		height: 30px;
+		width: 20%;
+	}
+
+	#Ghadir_Logo_small {
+		margin: auto;
+		width: 100%;
+		height: auto;
+	}
+	.cell_tbl {
+		border-collapse: collapse;
+		margin: auto;
+		width: 100%;
+	}
+	.footer_tbl {
+		border-collapse: collapse;
+		text-align: center;
+		margin: auto;
+		width: 100%;
+	}
+	.Center {
+		margin: auto;
+		text-align: center;
+		width: 40%;
+	}
+}

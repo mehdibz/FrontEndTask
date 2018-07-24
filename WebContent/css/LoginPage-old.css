@@ -1,0 +1,232 @@
+/*http://css-snippets.com/drop-down-navigation */
+ul {
+	border: 1px solid #000;
+}
+
+.curve {
+	-webkit-border-radius: 9px;
+	-moz-border-radius: 9px;
+	border-radius: 9px;
+}
+
+.curve-top {
+	-webkit-border-top-right-radius: 6px;
+	-webkit-border-top-left-radius: 6px;
+	-moz-border-top-right-radius: 6px;
+	-moz-border-top-left-radius: 6px;
+	text-align: center;
+}
+
+.curve-bottom {
+	-webkit-border-bottom-right-radius: 6px;
+	-webkit-border-bottom-left-radius: 6px;
+	-moz-border-bottom-right-radius: 6px;
+	-moz-border-bottom-left-radius: 6px;
+}
+
+#fix {
+	margin: auto;
+	height: 90%;
+	width: 100%;
+	margin-left: 2px;
+	margin-right: 2px;
+	font-size: .9em;
+	display: inline-table;
+	border: 0px solid;
+}
+
+.fix2 {
+	margin: auto;
+	height: 90%;
+	width: 100%;
+	font-size: .9em;
+	display: inline-table;
+	border: 0px solid;
+}
+
+#fixlbl {
+	padding: 0px;
+	width: 20%;
+}
+
+#FixHeader {
+	margin: auto;
+	height: 90%;
+	width: 50%;
+	font-size: 95%;
+}
+
+/*======================================================================================================
+=============================================== 600 px =================================================
+======================================================================================================*/
+@media screen and (min-width: 600px) {
+	#plogin {
+		background-position: center;
+		background-color: #B5B1AB;
+		background: no-repeat url("../img/Blur/137221_small1.jpg");
+		background-size: 100%;
+		padding-top: 1%;
+		padding-bottom: 3%;
+		margin: 2%;
+		margin-right: 5%;
+		padding: 1%;
+		direction: rtl;
+	}
+	#Ghadir_Logo_small {
+		margin: auto;
+		width: 50%;
+		height: auto;
+	}
+	.styling2 {
+		margin-left: 3%;
+		color: #5500aa;
+		font: bold 28px MS Sans Serif;
+		padding: 3px;
+	}
+	section {
+		margin-right: 8%;
+		text-align: right;
+		font-size: 1.5em;
+	}
+	.small_date {
+		margin-left: 2%;
+		font-size: 1.3em;
+	}
+	#notice {
+		font-size: 1.3em;
+	}
+	.button {
+		margin: auto;
+		margin-left: 2%;
+		margin-right: 2%;
+		height: 40px;
+		width: 10%;
+		font-size: 1.0em;
+	}
+	.Center {
+		margin: auto;
+		text-align: center;
+		width: 4%;
+	}
+}
+/*======================================================================================================
+=============================================== 1000 px =================================================
+======================================================================================================*/
+@media screen and (min-width: 1000px) {
+	#plogin {
+		background-position: center;
+		background-color: #B5B1AB;
+		background: no-repeat url("../img/Blur/137221.jpg");
+		background-size: 100%;
+		padding-top: 1%;
+		padding-bottom: 3%;
+		margin: 2%;
+		margin-right: 5%;
+		padding: 1%;
+		direction: rtl;
+		/*
+		-webkit-filter: blur(5px);
+		-moz-filter: blur(5px);
+	    filter: blur(5px);
+	   
+    	-webkit-filter: opacity(30%); 
+    	-moz-filter: opacity(30%);
+    	filter: opacity(30%); */
+	}
+	#logMsg {
+		color: #ff0080;
+		font-size: 1.2em;
+	}
+	.tbl_login {
+		margin: auto;
+		margin-top: 16%;
+		width: 25%;
+		/*border: 1px solid #8000ff;*/
+		height: 40%;
+		font-size: 1.2em;
+		color: #0000a0;
+	}
+	.button {
+		margin: auto;
+		margin-left: 2%;
+		margin-right: 2%;
+		height: 40px;
+		width: 10%;
+		font-size: 0.9em;
+	}
+	#between_tbl {
+		height: 30px;
+		width: 20%;
+	}
+	#cellspace {
+		height: 23px;
+		width: 60px;
+	}
+	.styling2 {
+		text-align: left;
+		margin-left: 2%;
+		color: #6100c1;
+		font: bold 24px MS Sans Serif;
+		padding: 0px;
+	}
+	section {
+		margin-right: 10%;
+		text-align: right;
+		font-size: 1.6em;
+	}
+	#repoTitle {
+		width: 30%;
+		margin-left: 0%;
+	}
+	.header_tbl {
+		width: 100%;
+		border-collapse: collapse;
+		-webkit-border-radius: 25 25 25 25px;
+		-moz-border-radius: 25 25 25 25px;
+		border-radius: 25 25 25 25px;
+	}
+	#Ghadir_Logo_small {
+		margin: auto;
+		width: 100%;
+		height: auto;
+	}
+	.cell_tbl {
+		border-collapse: collapse;
+		margin: auto;
+		width: 100%;
+	}
+	.footer_tbl {
+		border-collapse: collapse;
+		text-align: center;
+		margin: auto;
+		width: 100%;
+	}
+	.lr {
+		border-right: 1px solid #5500aa;
+		border-left: 1px solid #5500aa;
+	}
+	.ub {
+		border-top: 1px solid #5500aa;
+		border-bottom: 1px solid #5500aa;
+	}
+	.vertical {
+		-webkit-transform: rotate(270deg);
+		writing-mode: rl;
+		-moz-transform: rotate(270deg);
+		-o-transform: rotate(270deg);
+		padding: 2px;
+		text-align: center;
+	}
+	.mirror {
+		-moz-transform: scale(-1, 1);
+		-webkit-transform: scale(-1, 1);
+		-o-transform: scale(-1, 1);
+		-ms-transform: scale(-1, 1);
+		transform: scale(-1, 1);
+	}
+	.Center {
+		margin: auto;
+		text-align: center;
+		width: 40%;
+	}
+}

@@ -1,0 +1,598 @@
+/*http://css-snippets.com/drop-down-navigation */
+Body {
+
+		direction: rtl;
+}
+.cons {
+	margin: 2%;
+	margin-top: 10%;
+	padding: 2%;
+	background-color: #ceceff;
+}
+
+.icon {
+	width: 13%;
+}
+
+#adv {
+	font-size: 1.5em;
+	padding: 0px;
+	color: #ff6a22;
+}
+
+ul {
+	border: 1px solid #000;
+}
+
+.tbl_reg {
+	margin: auto;
+	margin-top: 6%;
+	width: 27%;
+	border: 1px solid #8000ff;
+	height: 50%;
+}
+
+.curve {
+	-webkit-border-radius: 9px;
+	-moz-border-radius: 9px;
+}
+
+.curve-top {
+	-webkit-border-top-right-radius: 6px;
+	-webkit-border-top-left-radius: 6px;
+	-moz-border-top-right-radius: 6px;
+	-moz-border-top-left-radius: 6px;
+	text-align: center;
+}
+
+.curve-bottom {
+	-webkit-border-bottom-right-radius: 6px;
+	-webkit-border-bottom-left-radius: 6px;
+	-moz-border-bottom-right-radius: 6px;
+	-moz-border-bottom-left-radius: 6px;
+}
+
+#fix {
+	margin: auto;
+	height: 90%;
+	width: 97%;
+	font-size: .9em;
+}
+
+#fixlbl {
+	margin: auto;
+	height: 90%;
+	width: 50%;
+	font-size: 95%;
+}
+
+/************************** Sub Menus **************************/
+#nav_bar>ul>li>a {
+	padding-left: 0;
+}
+
+#nav_bar li ul {
+	position: absolute;
+	display: none;
+	width: inherit;
+}
+
+#nav_bar li:hover ul {
+	display: block;
+}
+
+#nav_bar a:hover {
+	background-color: #005f5f;
+}
+
+/*======================================================================================================
+=============================================== 600 px =================================================
+======================================================================================================*/
+@media screen and (min-width: 600px) {
+	#nav_bar ul {
+		list-style: none;
+		background-color: #444;
+		text-align: center;
+		padding: 0;
+		margin: 0;
+		wide: 90%;
+	}
+	#nav_bar li {
+		width: 22%;
+		border-right: 2px solid yellow;
+		height: 40px;
+		line-height: 40px;
+		font-size: 150%;
+		display: inline-table;
+		margin-right: -4px;
+		text-align: center;
+	}
+	#nav_bar li li {
+		font-size: 1.0em;
+		border-right: none;
+		display: block;
+		width: 100%;
+		height: 40px;
+		line-height: 40px;
+	}
+	#ViewNav ul {
+		/*border: hidden;*/
+		text-align: center;
+		padding: 0;
+		margin: 0;
+		wide: 100%;
+	}
+	#ViewNav li {
+		width: 12%;
+		height: 40px;
+		line-height: 40px;
+		font-size: 150%;
+		display: inline-table;
+		text-align: center;
+	}
+	#Ghadir_Logo {
+		margin-left: -85%;
+		width: 300%;
+		height: auto;
+	}
+	.MainMenuBody {
+		margin: 2%;
+		padding: 2%;
+		background-color: #7cbebe;
+	}
+	.styling2 {
+		margin-left: 3%;
+		color: #8000ff;
+		font: bold 28px MS Sans Serif;
+		padding: 3px;
+	}
+	section {
+		margin-right: 8%;
+		text-align: right;
+		font-size: 1.5em;
+	}
+	#GoToSystemLink {
+		font-size: 1.8em;
+		margin-left: 33%;
+		text-align: center;
+	}
+	marquee {
+		font-size: 1.1em;
+	}
+	#animate_icon {
+		width: 12%;
+		margin-left: 90;
+		display: inline-block;
+		height: auto;
+	}
+	.small_date {
+		margin-left: 2%;
+		font-size: 1.3em;
+	}
+	#notice {
+		font-size: 1.3em;
+	}
+
+	/*=================== Login Page ========================*/
+	#nav_bar li:last-child {
+		border-right: none;
+	}
+	#nav_bar a {
+		text-decoration: none;
+		color: #fff;
+		display: block;
+		padding-left: 15px;
+		transition: .5s background-color;
+	}
+	.tbl_login {
+		margin: auto;
+		margin-top: 13%;
+		width: 60%;
+		/*border: 1px solid #8000ff;*/
+		height: 90%;
+		font-size: 1.4em;
+		color: #0000a0;
+	}
+	#sub_page {
+		margin: 1%;
+		padding: 1%;
+		text-align: center;
+		-webkit-filter: opacity(30%);
+		-moz-filter: opacity(30%);
+		filter: opacity(80%);
+	}
+	#logMsg {
+		color: #ff0080;
+		font-size: 1.2em;
+	}
+
+	/*=================== View Page ========================*/
+	#pview {
+		background-color: #9797ff;
+		/*background: no-repeat url("../img/Blur/imageedit_921.jpg");*/
+		background-size: 100%;
+		padding-top: 1%;
+		padding-bottom: 3%;
+		/*
+	-webkit-filter: blur(5px);
+	-moz-filter: blur(5px);
+    filter: blur(5px);
+   
+    -webkit-filter: opacity(30%); 
+    -moz-filter: opacity(30%);
+    filter: opacity(30%); */
+	}
+	#ViewBody {
+		margin: 2%;
+		margin-right: 5%;
+		padding: 1%;
+		color: black;
+	}
+	.button {
+		margin: auto;
+		margin-left: 2%;
+		margin-right: 2%;
+		height: 40px;
+		width: 10%;
+		font-size: 1.0em;
+	}
+	#ViewNav ul {
+		border: hidden;
+		text-align: center;
+		wide: 5%;
+	}
+	#view_combo_div {
+		margin-left: 5%;
+		/*height: 10px;*/
+		/*font-size: 0.9em;*/
+		width: 32.5%;
+		display: inline;
+		-webkit-filter: opacity(30%);
+		-moz-filter: opacity(30%);
+		filter: opacity(80%);
+	}
+	.total_score_div {
+		margin: auto;
+		width: 25%;
+		display: inline-table;
+	}
+	.tx_box_final {
+		margin: auto;
+		width: 35%;
+		padding-left: 1%;
+		padding-right: 1%;
+	}
+	.view_combo_final {
+		margin: auto;
+		width: 32%;
+		padding-left: 0%;
+		padding-right: 0%;
+	}
+	#Farsi_div {
+		margin: auto;
+		padding-left: 0%;
+		padding-right: 0%;
+		width: 27%;
+		display: inline-table;
+	}
+	.view_combo_Num {
+		margin: auto;
+		width: 28%;
+		padding-left: 0%;
+		padding-right: 0%;
+		font-size: 0.8em;
+	}
+	.tx_box_sub_Fa {
+		width: 58%;
+		padding-left: 0%;
+		padding-right: 1%;
+		font-size: 0.9em;
+	}
+	#view_combo_MainCourse {
+		width: 10%;
+		padding-left: 0%;
+		padding-right: 0%;
+		font-size: 1.0em;
+	}
+	#view_combo_stdName {
+		width: 26%;
+		padding-left: 0%;
+		padding-right: 0%;
+		font-size: 1.0em;
+	}
+	#std_combo_opt {
+		font-size: 1.0em;
+	}
+	.text_area {
+		margin: auto;
+		margin-top: 1%;
+		height: 130px;
+		width: 100%;
+		text-align: right;
+		font-size: 1.0em;
+		resize: none;
+	}
+	.details_caption {
+		font-size: 1.1em;
+	}
+
+	/*=================== Servlet ========================*/
+	.servlet {
+		/*border:2px solid #8000ff;*/
+		margin-top: 7%;
+		border: 2px #9b9b00;
+		padding-right: 2%;
+		width: 94%;
+	}
+	#ServResultTbl {
+		color: #4040ff;
+	}
+	table {
+		border-collapse: collapse;
+	}
+	th {
+		border: 2px solid #8000ff;
+		width: 8%;
+		text-align: center;
+		font-size: 1.0em;
+	}
+	td {
+		border: 2px solid #8000ff;
+		width: 8%;
+		text-align: center;
+		font-size: 1.3em;
+	}
+	.serv_det_col {
+		-webkit-border-radius: 25 25 25 25px;
+		-moz-border-radius: 25 25 25 25px;
+		border-radius: 25 25 25 25px;
+		width: 93%
+	}
+	#about_pic {
+		width: 45%;
+	}
+	.Center {
+		margin: auto;
+		text-align: center;
+		width: 4%;
+	}
+}
+/*======================================================================================================
+=============================================== 1000 px =================================================
+======================================================================================================*/
+@media screen and (min-width: 1000px) {
+	#nav_bar ul {
+		wide: 90%;
+		list-style: none;
+		background-color: #444;
+		text-align: center;
+		padding: 0;
+		margin: 0;
+	}
+	#nav_bar li {
+		width: 23%;
+		border-right: 3px solid yellow;
+		height: 50px;
+		line-height: 50px;
+		font-size: 150%;
+		display: inline-table;
+		margin-right: -4px;
+		text-align: center;
+	}
+	#nav_bar li li {
+		font-size: .9em;
+		border-right: none;
+		display: block;
+		width: 100%;
+		height: 50px;
+		line-height: 50px;
+	}
+	#ViewNav ul {
+		border: hidden;
+		text-align: center;
+		wide: 100%;
+	}
+	.MainMenuBody {
+		margin: 2%;
+		padding: 2%;
+		/*background-color: #8a918e;*/
+		background-color: #55aaff;
+	}
+	#Ghadir_Logo {
+		margin-left: -40%;
+		width: 500%;
+		height: 130px;
+	}
+	#animate_icon {
+		width: 80%;
+		margin-left: 200%;
+		display: inline;
+		height: auto;
+	}
+	.styling2 {
+		text-align: left;
+		margin-left: 2%;
+		color: #6100c1;
+		font: bold 24px MS Sans Serif;
+		padding: 0px;
+	}
+	section {
+		margin-right: 10%;
+		text-align: right;
+		font-size: 1.6em;
+	}
+	#GoToSystemLink {
+		font-size: 1.8em;
+		margin-left: 38%;
+		text-align: center;
+	}
+	marquee {
+		font-size: 1.2em;
+	}
+	#sub_page {
+		margin: 1%;
+		padding: 1%;
+		/*background: #cb97ff;*/
+		text-align: center;
+		-webkit-filter: opacity(30%);
+		-moz-filter: opacity(30%);
+		filter: opacity(80%);
+	}
+	#about_pic {
+		width: 45%;
+	}
+
+	/*=================== View Page  ========================*/
+	#pview {
+		background-color: #8a918e;
+		/*background: no-repeat url("../img/Blur/imageedit_9.jpg");*/
+		background-size: 100%;
+		padding-top: 1%;
+		padding-bottom: 3%;
+		/*
+	-webkit-filter: blur(5px);
+	-moz-filter: blur(5px);
+    filter: blur(5px);
+   
+    -webkit-filter: opacity(30%); 
+    -moz-filter: opacity(30%);
+    filter: opacity(30%); */
+	}
+	#ToolPage {
+		background-color: #8a918e;
+		/*background: no-repeat url("../img/Blur/imageedit_9.jpg");*/
+		background-size: 100%;
+		padding-top: 1%;
+		padding-bottom: 3%;
+		/*
+	-webkit-filter: blur(5px);
+	-moz-filter: blur(5px);
+    filter: blur(5px);
+   
+    -webkit-filter: opacity(30%); 
+    -moz-filter: opacity(30%);
+    filter: opacity(30%); */
+	}
+	#ViewBody {
+		margin-left: 2%;
+		margin-right: 5%;
+		padding: 1%;
+		color: black;
+	}
+	#view_combo_div {
+		margin-left: 1%;
+		/*height: 10px;*/
+		/*font-size: 0.9em;*/
+		width: 92.5%;
+		display: inline;
+		-webkit-filter: opacity(30%);
+		-moz-filter: opacity(30%);
+		filter: opacity(80%);
+	}
+	.total_score_div {
+		margin: auto;
+		width: 10%;
+		display: inline-table;
+	}
+	.tx_box_final {
+		margin: auto;
+		width: 35%;
+		padding-left: 1%;
+		padding-right: 1%;
+		font-size: 0.9em;
+		font-style: bold;
+	}
+	.view_combo_final {
+		margin: auto;
+		width: 25%;
+		padding-left: 0%;
+		padding-right: 0%;
+		font-size: 1.0em;
+	}
+	#Farsi_div {
+		margin: auto;
+		padding-left: 0%;
+		padding-right: 0%;
+		width: 14%;
+		display: inline-table;
+	}
+	.view_combo_Num {
+		margin: auto;
+		width: 34%;
+		padding-left: 0%;
+		padding-right: 0%;
+		font-size: 1.0em;
+	}
+	.tx_box_sub_Fa {
+		width: 60%;
+		padding-left: 0%;
+		padding-right: 1%;
+		font-size: 0.9em;
+		font-style: bold;
+	}
+	#view_combo_MainCourse {
+		width: 7%;
+		padding-left: 0%;
+		padding-right: 0%;
+		font-size: 1.0em;
+	}
+	#view_combo_stdName {
+		width: 16.5%;
+		padding-left: 0%;
+		padding-right: 0%;
+		font-size: 1.0em;
+	}
+	#std_combo_opt {
+		font-size: 1.0em;
+	}
+	.text_area {
+		margin: auto;
+		margin-top: 1%;
+		height: 130px;
+		width: 100%;
+		text-align: right;
+		font-size: 1.4em;
+		resize: none;
+	}
+	.details_caption {
+		font-size: 1.1em;
+	}
+	.Center {
+		margin: auto;
+		text-align: center;
+		width: 50%;
+	}
+	/*=================== Servlet ========================*/
+	.servlet {
+		/*border:2px solid #8000ff;*/
+		margin-top: 7%;
+		border: 2px #8000ff;
+		padding-right: 1%;
+		width: 95%;
+	}
+	#ServResultTbl {
+		color: #4040ff;
+		font-size: 1.3em;
+	}
+	table {
+		border-collapse: collapse;
+		-webkit-border-radius: 25 25 25 25px;
+		-moz-border-radius: 25 25 25 25px;
+		border-radius: 25 25 25 25px;
+	}
+	td, th {
+		border: 2px solid #8000ff;
+		width: 6%;
+		text-align: center;
+	}
+	tr:last-child>td:last-child {
+		
+	}
+	.serv_det_col {
+		width: 90%
+	}
+	#Result_Note {
+		color: #00ff00;
+		font-size: 1.3em;
+	}
+}
