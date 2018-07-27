@@ -1,31 +1,39 @@
 body{
 	display: table;
 }
-.filter {
-	margin: 1%;
-}
 
 label{
 	color: #408080;
 }
+.search{
+	margin-bottom: 1%;
+	margin-left: 80%;
+}
+#UserTitle{
+	margin-bottom: 1%;
+}
+
+#uTitle{
+	color: #8000ff;
+	font: 25px MS Sans Serif;
+}
+
 .btn_space {
-		margin-top: 5%;
+		margin-top: 2%;
 }
-.t_head1{
-	position: fixed;
-}
+
 .table-wrapper1
 {
     border: 1px solid #00ff80;
-    height: 400px;
-    max-width:1000px;
+    height: 360px;
+    max-width:1100px;
     overflow: auto;
 }
 .table-wrapper2
 {
     border: 1px solid #00ff80;
-    height: 300px;
-    max-width:1250px;
+    height: 345px;
+    max-width:1260px;
     overflow: auto;
 }
 
@@ -77,13 +85,4 @@ label{
 	font-size: 0.6rem;
 	background-color: #c0c0c0;
 	border: 0.01rem solid #0134cb;
-}
-
-.styling2 {
-	text-align: left;
-	margin-left: 2%;
-	color: #252525;
-	font: bold 24px MS Sans Serif;
-	padding: 0px;
-	text-shadow: 2px 2px 5px #252525;
 }

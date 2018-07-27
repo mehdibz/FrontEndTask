@@ -6,25 +6,17 @@
 <%@ taglib uri="http://java.sun.com/jstl/core_rt" prefix="c" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/sql" prefix="sql" %>
 	
-<% try{
+<% String user=null;
+	try{
 		session = request.getSession();
-		String user = session.getAttribute("userName").toString();
+		user = session.getAttribute("userName").toString();
 		if(user.length() ==0){
-			//request.setAttribute("userName", userName);
 			response.sendRedirect("login.jsp");
 		}
 	}catch(Exception e){
 		out.println(e.toString());
 		response.sendRedirect("login.jsp");
 	}
-%>
-<%!
-public String filter(String x) {
-	String query;
-	if (x != ""){query = " WHERE customerName LIKE '%" + x + "%' ";}
-	else{query = "";}
-	return query;
-}
 %>
 
 <sql:setDataSource var="dataSource" driver="org.gjt.mm.mysql.Driver" url="jdbc:mysql://localhost:3306/classicmodels" user="root" password="admin" scope="session" />
@@ -43,10 +35,24 @@ public String filter(String x) {
     	<script type="text/javascript" src="resources/js/scripts.js"></script>
 	</head>
 <body onload="loadPage(this)">
-	<div>
-		<label><input class="" type="text" id="Search" value="" placeholder="Search by ..." onchange="search(this)"/></label>
+	<div id="UserTitle">
+		<label id="uTitle"> Welcome back <%= user %></label>
 	</div>
-	<label for="srcTableFrame">Customers Table:</label>
+		<table>
+			<tr>
+				<td>
+					<label for="srcTableFrame">Customers Table:</label>
+				</td>
+				<td>
+					<div class="btn_space"></div>
+				</td>
+				<td>
+					<div class="search">
+						<label><input class="" type="text" id="Search" value="" placeholder="Search by ..." onchange="search(this)"/></label>
+					</div>
+				</td>
+			</tr>
+		</table>
 	<div class="table-wrapper1" id="srcTableFrame">
          <table cellpadding="2" cellspacing="0" class="tbl_reg" id="srcTable">
          <thead class="t_head">
@@ -89,11 +95,22 @@ public String filter(String x) {
 	</div>
 	<div class="btn_space">
 	</div>
-	<div>
-		<input class="" type="text" id="SearchOnRes" value="" placeholder="Search by ..." onchange="SearchOnRes(this)"/>
-	</div>
-	<label for="resDiv" id="resDivCaption">Products the customer ordered:</label>
-	<div class="table-wrapper2" id="result1">
+		<table>
+			<tr>
+				<td>
+					<label for="resDiv" id="resDivCaption">Products the customer ordered:</label>
+				</td>
+				<td>
+					<div class="btn_space"></div>
+				</td>
+				<td>
+					<div class="search">
+						<input class="" type="text" id="SearchOnRes" value="" placeholder="Search by ..." onchange="SearchOnRes(this)"/>
+					</div>
+				</td>
+			</tr>
+		</table>
+		<div class="table-wrapper2" id="result1">
          <table id="resDiv" class="display" style="width:100%">
 		  	<thead class="t_head">
             	<tr>

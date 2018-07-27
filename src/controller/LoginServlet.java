@@ -33,7 +33,7 @@ public class LoginServlet extends HttpServlet {
 		if (userValidate) 
 		{
 			session.setAttribute("userName", userName);
-			// session.setMaxInactiveInterval(2*60);
+			session.setMaxInactiveInterval(5*60);
 			request.setAttribute("userName", userName);
 			response.sendRedirect("dataDiscovery.jsp");
 		} else {

@@ -9,7 +9,6 @@
   }
 
  function loadPage(e){
-	 //document.getElementById("resDiv").innerHTML = "Paragraph changed!";
 	 document.getElementById("result1").style.visibility = "hidden";
 	 document.getElementById("resDivCaption").style.visibility = "hidden";
 	 document.getElementById("SearchOnRes").style.visibility = "hidden";
@@ -60,7 +59,7 @@
 				table1 = $('#resDiv').DataTable();
 				table1.destroy();
 				table1 = $('#resDiv').DataTable({
-					 		paging:false,
+					 		paging:true,
 				        	bFilter:true,
 				        	ordering:true,
 	   		            	"processing" : true,
