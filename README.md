@@ -5,7 +5,7 @@ layered data structure
 
 ## Final Product
 
-!["DataDiscovery"](https://github.com/mehdibz/TinyApp-Rev02/tree/master/docs/Registration.png)
+!["DataDiscovery"](https://github.com/mehdibz/FrontEndTask/blob/master/WebContent/resources/img/DataDiscovery.png)
 
 ## Dependencies
 
