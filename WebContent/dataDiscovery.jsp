@@ -21,7 +21,7 @@
 
 <sql:setDataSource var="dataSource" driver="org.gjt.mm.mysql.Driver" url="jdbc:mysql://localhost:3306/classicmodels" user="root" password="admin" scope="session" />
 <sql:query var = "users" dataSource="${dataSource}">
-	SELECT * FROM Customers
+	SELECT * FROM customers
 </sql:query>
 
 <html>
